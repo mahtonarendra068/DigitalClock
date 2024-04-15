@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://media.istockphoto.com/id/1571494714/photo/view-of-golden-gate-bridge.jpg?s=2048x2048&w=is&k=20&c=MSwPBUaOI1LgKl5RCPsPu2orkrqPrdlxjHPqZC6jxAQ=) no-repeat;
+    background-size: cover;
+}
+.clock{
+    width: 100%;
+    max-width: fit-content;
+    padding: 29px;
+    border-radius: 23px;
+    display: flex;
+    color: rgb(188, 188, 214);
+    /* background-color: blueviolet; */
+    box-shadow: 1px 1px 12px rgb(0,0,0,0.8);
+    font-size: 22px;
+}
+.clock span{
+    font-weight: bold;
+    /* font-size: 30px; */
+}
